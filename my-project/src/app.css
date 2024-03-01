@@ -1,0 +1,56 @@
+@import 'tailwindcss/base'; 
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; 
+
+
+html {
+  font-family: "Georgia", serif;
+  margin: 10%;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Custom class for structure indentation */
+.structure {
+  margin-left: 2rem; /* equivalent to ml-8 */
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
