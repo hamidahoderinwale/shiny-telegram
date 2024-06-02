@@ -1,0 +1,15 @@
+/* Import the IBM Plex Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+body {
+    font-family: "Nanum Myeongjo", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-weight: 500;
+    text-align: left;
+    max-width: 70ch;
+    padding: 5% 10%;
+}
+

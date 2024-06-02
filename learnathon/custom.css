@@ -1,0 +1,27 @@
+/* Import Tailwind CSS base, components, and utilities */
+/* These imports are not necessary as we're not using Tailwind CSS anymore */
+/* @import 'tailwindcss/base'; */
+/* @import 'tailwindcss/components'; */
+/* @import 'tailwindcss/utilities'; */
+
+/* Define custom styles to override Bootstrap */
+html {
+    font-family: "Georgia", serif;
+    margin: 10%;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Custom class for structure indentation */
+  .structure {
+    margin-left: 2rem; /* equivalent to ml-8 */
+  }
+  
